@@ -114,20 +114,18 @@ h2{
     color: rgb(163, 3, 38);
 }
 @media screen and (max-width:940px) and (min-width:600px){
-    h2{
-        font-size: medium;
-    }
     #question{
         font-size: small;
     }
     .container{
         width: 80vw;
     }
+    #score{
+        font-size: x-large;
+        font-weight: 500;
+    }
 }
 @media screen and (max-width:600px) and (min-width:200px){
-    h2{
-        font-size: small;
-    }
     #question{
         font-size: small;
     }
@@ -139,5 +137,9 @@ h2{
         margin-top: 10px;
         padding-top: 6px;
         padding: 4px;
+    }
+    #score{
+        font-size: x-large;
+        font-weight: 500;
     }
 }
